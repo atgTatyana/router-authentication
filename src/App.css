@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.authentication {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(249, 249, 249);
+  padding: 0 20px;
+  width: 800px;
+}
+
+.out {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  margin-left: 10px;
+  height: 35px;
+  padding: 0 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.login {
+  color: green;
+  border: 1px solid green;
+  margin-left: 10px;
+}
+
+.logout {
+  color: red;
+  border: 1px solid red;
+}
+
+.login:hover {
+  border: 2px solid green;
+}
+
+.logout:hover {
+  border: 2px solid red;
+}
+
+.news {
+  padding: 20px;
+  background-color: rgb(236, 235, 235);
+  margin: 20px auto;
+  width: 80%;
+}
+
+.cards {
+  margin: 20px auto;
+  width: 675px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  justify-content: space-between;
+}
+
+.card {
+  width: 320px;
+  border: 1px solid lightgray;
+}
